@@ -16,10 +16,7 @@ def isSafe(array):
             return False
     return True
      
-
 count = 0
-
-reports = []
 
 with open("input.txt", "r") as file:
         for line in file:
